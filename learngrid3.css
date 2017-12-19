@@ -1,0 +1,62 @@
+
+div div div
+{
+	background-color: #75767A;
+	border-color: white;
+	border-style: solid;
+	border-width:  2px;
+}
+.col-8
+{
+	background-color: #75767A;
+	border-color: white;
+	border-style: solid;
+	border-width:  2px;
+}
+ .col-3
+ {
+ 	background-color: #75767A;
+	border-color: white;
+	border-style: solid;
+	border-width:  2px;
+	border-left-width: 10px;
+
+ }
+
+#row1
+{
+	height: 250px;
+}
+#row2
+{
+	
+	height: 150px;
+
+}
+#row3
+{
+	height: 200px;
+}
+.col-4
+{
+	background-color: gray;
+	border-color: white;
+	border-style: solid;
+}
+@media only screen and (max-width: 1200px)
+{
+	#row1
+{
+	height: 450px;
+}
+#row2
+{
+	
+	height: 350px;
+
+}
+#row3
+{
+	height: 400px;
+}
+}

@@ -1,0 +1,29 @@
+.col-lg-4 ,.col-sm-12
+{
+	background-color: #D5D6D8;
+	height: 800px;
+	border-style: solid;
+	border-width: 4px;
+	border-color: white;
+}
+.col-12
+{
+	height: 300px;
+	background-color: #737478;
+	border-color: white;
+	border-width: 4px;
+}
+@media only screen and (max-width: 700px)
+{
+	.col-lg-4 ,.col-sm-12
+{
+	
+	height: 1000px;
+}
+.col-12
+{
+	height: 500px;
+	
+}
+
+}

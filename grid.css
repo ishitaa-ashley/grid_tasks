@@ -1,0 +1,125 @@
+div div div
+{
+	height:100%;
+	border-style: solid;
+	border-width: 1px;
+}
+div div
+{
+	height:50px;
+	border-style: solid;
+	border-color:gray;
+	border-width: 1px;
+}
+#row1
+{
+	height: 25%;
+	border-style: double;
+	border-color: white;
+}
+.col-5
+{
+	background-color: #68D2E7;
+	border-style: solid;
+	border-color: white;
+}
+.col-7
+{
+	background-color: #A7DBD7;
+	border-style: solid;
+	border-color: white;
+}
+#row2
+{
+	height: 15%;
+	border-color: white;
+}
+.col-3
+{
+	background-color: #EE8735;
+	border-color: white;
+	border-width: 2px;
+}
+#row3
+{
+	height: 18%;
+}
+.col-8
+{
+	background-color: #D95B44;
+	border-color: white;
+	border-style: solid;
+}
+#oldcol4
+{
+	background-color: #BF2942;
+	border-color: white;
+	border-style:solid;
+}
+#row4
+{
+	height: 20%;
+
+}
+#newcol3
+{
+	background-color: #54777B;
+	border-width: 2px;
+	border-style: solid;
+	border-color: white;
+}
+
+.col-2
+{
+	background-color: #542537;
+	border-color: white;
+	border-style: solid;
+}
+#newcol4
+{
+	background-color: gray;
+}
+
+
+#row5
+{
+	height: 20%;
+}
+
+.col-4
+{
+	background-color: #343B45;
+	border-color: white;
+	border-style: solid;
+}
+p
+{
+	height: 100%;
+	overflow: auto;
+}
+
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.container{
+    .row{
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+}
+
+@media only screen and (max-width:500px)
+{
+
+.col-2, .col-4, .col-8
+{
+	border-color: black;
+}
+.row,#row1,#row2
+{
+ border-color: black;
+}
+
+}

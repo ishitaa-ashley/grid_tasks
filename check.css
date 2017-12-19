@@ -1,0 +1,117 @@
+.top
+{
+	background-color: #3E5B99;
+	position: fixed;
+	height: 80px;
+	width:100%;
+	text-align: left;
+	font-size: 30px;
+	margin:0px auto;
+	position: absolute;
+
+}
+
+
+.bdy
+{
+	overflow-y: auto;
+float:center;
+width:100%;
+height:100%;
+align-items: center;
+background-color: #E9EBEE;
+margin:0px auto;
+margin-top: 80px;
+
+}
+#bttn
+{
+	background-color: #61A14E;
+	align-self: left;
+	height: 40px;
+	width:200px;
+	margin-right: 150px;
+	font-size: 17px;
+	border-radius: 7px;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 5px;
+
+
+}
+#txt
+{
+	text-align: left;
+	margin-left: 500px;
+	font-color:gray;
+}
+#i,select
+{
+	border-radius: 5px;
+	height: 39px;
+	border-style: solid;
+	border-color: #BDC7D8;
+	padding-left:7px;
+	border-width: 1px;
+}
+h1,h4
+{
+	text-align: left;
+	margin-left: 500px;
+}
+#bd
+{
+	text-align: left;
+	margin-left: 500px;
+	font-weight: 3px;
+	font-color:#1D2129;
+	font-size:20px;
+}
+#topbutton
+{
+	float: right;
+	margin-top: 5px;
+	margin-right:150px;
+	background-color: #4267B2;
+	height: 30px;
+	border-color: #29487D;
+	color:white;
+	cursor: pointer;
+}
+.heading
+{
+	margin-left: 180px;
+	margin-top:20px;
+	font-size:40px;
+}
+
+input[type="radio"]
+{
+	size: 100%;
+	left:0px;
+
+}
+#fe
+{
+	margin-left: -200px;
+}
+#ma
+{
+	margin-left: 30px;
+}
+html, body
+ {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin: 0;
+    padding:0;
+}
+body
+{
+	text-align: center;
+}

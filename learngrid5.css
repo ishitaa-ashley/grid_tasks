@@ -1,0 +1,26 @@
+.col-lg-3 , .col-sm-12
+{
+	background-color: #737478;
+	border-color: white;
+	border-width: 3px;
+	height: 300px;
+	border-style: solid;
+	
+}
+#lastcol
+{
+	background-color: #D5D6D8;
+
+}
+#lastcol2
+{
+	background-color: #D5D6D8;
+}
+@media only screen and (max-width: 700px)
+{
+
+.col-lg-3 , .col-sm-12
+{
+	height: 500px;
+}	
+}
